@@ -31,6 +31,9 @@ class Square extends Rectangle{
         return(4*this._side);
     }
 }
+const square = new Square(5);
+console.log(square.side); // Output: 5
+console.log(square.getPerimeter()); // Output: 20
 // Do not change the code below this line
 window.Rectangle = Rectangle;
 window.Square = Square;
